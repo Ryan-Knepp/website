@@ -1,0 +1,36 @@
+:root {
+  --primary-color: #7dce94;
+  --secondary-color: #3d3d3f;
+  --tertiary-color: #f6f5f3;
+  --back-color: #f9f8fd;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0.5rem 0;
+  padding: 0.5rem 0;
+}
+
+h3 {
+  font-weight: 100;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-color: var(--back-color);
+  color: var(--secondary-color);
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}

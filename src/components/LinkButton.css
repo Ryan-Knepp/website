@@ -1,0 +1,26 @@
+.link-button {
+  color: var(--secondary-color);
+  font-weight: 900;
+  text-decoration: none;
+  border: 1px solid var(--primary-color);
+  border-radius: 5rem;
+  padding: 0.25rem 0.5rem;
+
+  display: flex;
+  align-items: center;
+}
+
+.link-button:hover {
+  background: var(--primary-color);
+}
+
+.link-button:active,
+.link-button:focus {
+  outline: none;
+  box-shadow: 0 0 3px 1px var(--primary-color);
+}
+
+.link-button svg {
+  padding-right: 4px;
+  fill: var(--secondary-color);
+}
