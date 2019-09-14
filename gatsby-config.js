@@ -62,20 +62,13 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        // edit below
-        // trackingId: `ADD YOUR TRACKING ID HERE`,
-      },
-    },
-    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Ryan Knepp's Website`,
         short_name: `Ryan Knepp`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#663399`,
+        theme_color: `#7dce94`,
         display: `minimal-ui`,
         // edit below
         icon: `src/images/logo.png`,
