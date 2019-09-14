@@ -9,7 +9,6 @@ import SEO from "../components/seo"
 
 class IndexPage extends React.Component {
   render() {
-    console.log(this.props.data)
     return (
       <div className="App">
         <SEO />
