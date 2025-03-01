@@ -64,9 +64,17 @@ useHead({
 
 const projects = [
   {
+    name: "Rotating Potluck",
+    description:
+      "A little tool to help your church organize a rotating potluck.",
+    image: "/images/potluck.svg",
+    url: "https://ncbcpotluck.fly.dev",
+    repositoryURL: "https://github.com/Ryan-Knepp/rotating-potluck",
+  },
+  {
     name: "T Photography",
     description:
-      "The best kids and family photographer in the greater Peoria area. I'm definitely not biased at all.",
+      "The best kids and family photographer in the greater Peoria area. I'm definitely not biased at all. This has since been replaced because I don't have the time to keep up with payments and scheduling functionality.",
     image: "/images/tlogo.png",
     url: "https://taryn.photography",
     repositoryURL: "https://github.com/Ryan-Knepp/tphoto",

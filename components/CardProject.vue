@@ -1,6 +1,12 @@
 <template>
   <a :href="url" class="grid-cols-project grid w-full items-center gap-4">
-    <NuxtImg :src="image" class="h-16 w-16 rounded-full object-cover" alt="" />
+    <NuxtImg
+      :src="image"
+      :class="`h-16 w-16 object-cover ${
+        image.includes('.svg') ? 'p-2' : 'rounded-full'
+      }`"
+      alt=""
+    />
     <h3 class="ml-4 text-2xl">{{ name }}</h3>
     <p class="col-span-2">{{ description }}</p>
   </a>
